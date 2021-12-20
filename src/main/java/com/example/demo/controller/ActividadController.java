@@ -10,6 +10,7 @@ import java.util.List;
 /**
  * Este es el controlador de Actividad, que es consumido por el frontend
  */
+@CrossOrigin(origins = "*",maxAge = 3600)
 @RestController
 @RequestMapping("/api/actividad")
 @RequiredArgsConstructor
