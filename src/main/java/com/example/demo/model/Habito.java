@@ -6,10 +6,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
 
-
+/**
+ * Modelo de Habito
+ */
 @Document(value = "Habito")
 @Data
 public class Habito {
+    /**
+     * El indicador que permite encontrar Habito dentro de la base de datos
+     */
     @Id
     Long id;
     String titulo;
